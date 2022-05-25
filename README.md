@@ -1,4 +1,4 @@
-# SwiftLintPlugin
+# RswiftPlugin
 
 SwiftPM build tool plugin for Rswift
 
