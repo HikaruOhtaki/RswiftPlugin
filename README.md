@@ -8,13 +8,13 @@ SwiftPM build tool plugin for Rswift
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/HikaruOhtaki/RSwiftPlugin", branch: "main"),
+    .package(url: "https://github.com/HikaruOhtaki/RswiftPlugin", branch: "main"),
 ],
 targets: [
     .target(
         name: "App",
         plugins: [
-            .plugin(name: "RSwiftPlugin", package: "RSwiftPlugin"),
+            .plugin(name: "RswiftPlugin", package: "RswiftPlugin"),
         ]
     )
 ]
